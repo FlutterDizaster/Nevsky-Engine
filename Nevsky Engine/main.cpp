@@ -7,10 +7,10 @@
 
 #include <iostream>
 
-#include "src/HelloTriangle.hpp"
+#include "src/VkRenderer.hpp"
 
 int main() {
-    HelloTriangle app;
+    VkRenderer app;
     
     try{
         app.Run();
