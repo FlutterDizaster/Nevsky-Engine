@@ -60,7 +60,8 @@ private:
     static void DestroyDebugUtilsMessengerEXT(VkInstance instance,
                                               VkDebugUtilsMessengerEXT debugMessenger,
                                               const VkAllocationCallbacks* pAllocator);
-        
+  
+    static void populateDebugMessangerCreateInfo(VkDebugUtilsMessengerCreateInfoEXT &createInfo);
 };
 
 #endif
